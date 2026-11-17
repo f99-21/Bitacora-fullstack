@@ -6,10 +6,10 @@
 
 <!-- Sirve para identificarte como autor y que otros puedan contactarte. -->
 
-- **Nombre:** Tu Nombre Completo
+- **Nombre:** Fabricio Sandoval
 - **Curso:** Full Stack Web Development
 - **Institución / Academia:** Nombre de la academia
-- **GitHub:** [@tu-usuario](https://github.com/tu-usuario)
+- **GitHub:** [f99-21](https://github.com/tu-usuario)
 - **LinkedIn:** [Tu perfil](https://linkedin.com/in/tu-perfil)
 - **Correo:** tu-correo@ejemplo.com
 
