@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto | Fabricio Sandoval</title>
+    <meta name="description" content="Escríbeme por correo, GitHub o LinkedIn, o usa el formulario de contacto del portafolio de Fabricio Sandoval.">
 </head>
 
 <body>
@@ -34,6 +35,72 @@
                 <li><a href="https://github.com/f99-21" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                 <li><a href="https://www.linkedin.com/in/TU-USUARIO" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
             </ul>
+        </section>
+
+        <!-- Sección Formulario -->
+        <section id="formulario">
+            <h2>Envíame un mensaje</h2>
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Tus datos</legend>
+
+                    <p>
+                        <label for="nombre">Nombre completo</label><br>
+                        <input type="text" id="nombre" name="nombre" autocomplete="name" required>
+                    </p>
+
+                    <p>
+                        <label for="correo">Correo electrónico</label><br>
+                        <input type="email" id="correo" name="correo" autocomplete="email" required>
+                    </p>
+
+                    <p>
+                        <label for="telefono">Teléfono</label><br>
+                        <input type="tel" id="telefono" name="telefono" autocomplete="tel">
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Tu mensaje</legend>
+
+                    <p>
+                        <label for="asunto">Asunto</label><br>
+                        <select id="asunto" name="asunto" required>
+                            <option value="">Selecciona una opción</option>
+                            <option value="1">Oportunidad laboral</option>
+                            <option value="2">Colaboración en un proyecto</option>
+                            <option value="3">Consulta general</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="mensaje">Mensaje</label><br>
+                        <textarea id="mensaje" name="mensaje" rows="5" cols="40" required></textarea>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>¿Cómo prefieres que te contacten?</legend>
+
+                    <p>
+                        <input type="radio" id="pref-correo" name="preferencia" value="correo" required>
+                        <label for="pref-correo">Por correo</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" id="pref-telefono" name="preferencia" value="telefono">
+                        <label for="pref-telefono">Por teléfono</label>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <input type="checkbox" id="acepto" name="acepto" required>
+                    <label for="acepto">Acepto que me contacten</label>
+                </p>
+
+                <button type="submit">Enviar</button>
+            </form>
         </section>
     </main>
 
