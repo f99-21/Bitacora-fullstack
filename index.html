@@ -4,86 +4,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fabricio Sandoval</title>
-</head>
-<!--  Fuentes de Google Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <title>Fabricio Sandoval | Portafolio</title>
+    <meta name="description" content="Portafolio de Fabricio Sandoval, estudiante de desarrollo web full stack: sobre mí, metas y habilidades.">
 
-<link rel="stylesheet" href="CSS/estilos.css">
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
 
 <body>
-    <!--  Encabezado -->
-    <header>
-        <h1>Fabricio Sandoval</h1>
-        <p>Estudiante de Desarrollo Web Full Stack</p>
-        <nav aria-label="principal">
-            <!-- Aquí irá el menú de navegación -->
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="proyectos.html">proyectos</a></li>
-                <li><a href="contactos.html">contactos</a></li>
-            </ul>
-            
-        </nav>
-    </header>
+    <div class="contenedor">
+        <!-- Encabezado -->
+        <header>
+            <h1>Fabricio Sandoval</h1>
+            <p>Estudiante de Desarrollo Web Full Stack</p>
+            <nav aria-label="Principal">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="proyectos.html">Proyectos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <main>
-        <!--  Sección Sobre mí -->
-        <section id="sobre-mi">
-            <h2>Sobre mí</h2>
-            <figure>
-                <img src="img/perfil.jpg" alt="Imagen de perfil" width="200">
-                <figcaption>Fabricio Sandoval, estudiante de desarrollo web</figcaption>
-            </figure>
-            <p>
-                Soy una persona a la que le gustan los <strong>retos</strong>.
-                Siempre trato de dar lo mejor de mí y de enfocarme en sacar las
-                cosas adelante. Me caracterizo por ser <em>ordenado, respetuoso
-                    y amable</em> con los demás, y creo que el trabajo constante y una
-                buena actitud son la base para lograr cualquier objetivo.
-            </p>
-        </section>
-
-        <!--  Sección Mis metas -->
-        <section id="mis-metas">
-            <h2>Mis metas</h2>
-
-            <article>
-                <h3>Terminar el curso</h3>
+        <main>
+            <!-- Sección Sobre mí -->
+            <section id="sobre-mi" class="tarjeta">
+                <h2>Sobre mí</h2>
+                <figure>
+                    <img src="img/perfil.jpg" alt="Retrato de Fabricio Sandoval sonriendo" width="200">
+                    <figcaption>Fabricio Sandoval, estudiante de desarrollo web</figcaption>
+                </figure>
                 <p>
-                    Mi meta principal es terminar el curso de desarrollo web full
-                    stack y conseguir un trabajo en el área de la programación.
+                    Soy una persona a la que le gustan los <strong>retos</strong>.
+                    Siempre trato de dar lo mejor de mí y de enfocarme en sacar las
+                    cosas adelante. Me caracterizo por ser <em>ordenado, respetuoso
+                        y amable</em> con los demás, y creo que el trabajo constante y una
+                    buena actitud son la base para lograr cualquier objetivo.
                 </p>
-            </article>
-
-            <article>
-                <h3>Seguir creciendo</h3>
+                <p class="destacado">Mi objetivo: convertirme en desarrollador web full stack.</p>
                 <p>
-                    También quiero poner en práctica todos los conocimientos
-                    adquiridos en el curso y seguir aprendiendo y creciendo como
-                    programador.
+                    <a class="boton" href="proyectos.html">Ver proyectos</a>
+                    <a class="boton" href="contacto.html">Contáctame</a>
                 </p>
-            </article>
-        </section>
+            </section>
 
-        <!-- Sección Habilidades -->
-        <section id="habilidades">
-            <h2>Habilidades</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-            </ul>
-        </section>
-    </main>
+            <!-- Sección Mis metas -->
+            <section id="mis-metas" class="tarjeta">
+                <h2>Mis metas</h2>
 
-    <!--  Pie de página -->
-    <footer>
-        <p>&copy; 2026 Fabricio Sandoval · San Salvador, El Salvador</p>
-    </footer>
+                <article>
+                    <h3>Terminar el curso</h3>
+                    <p>
+                        Mi meta principal es terminar el curso de desarrollo web full
+                        stack y conseguir un trabajo en el área de la programación.
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Seguir creciendo</h3>
+                    <p>
+                        También quiero poner en práctica todos los conocimientos
+                        adquiridos en el curso y seguir aprendiendo y creciendo como
+                        programador.
+                    </p>
+                </article>
+            </section>
+
+            <!-- Sección Habilidades -->
+            <section id="habilidades" class="tarjeta">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>HTML5 semántico</li>
+                    <li>Control de versiones con Git y GitHub</li>
+                    <li>Uso de Visual Studio Code</li>
+                    <li>Trabajo en equipo</li>
+                    <li>Responsabilidad y orden</li>
+                    <li>Capacidad de aprendizaje</li>
+                </ul>
+            </section>
+        </main>
+
+        <!-- Pie de página -->
+        <footer>
+            <p>&copy; 2026 Fabricio Sandoval · San Salvador, El Salvador</p>
+        </footer>
+    </div>
 </body>
 
 </html>
